@@ -13,7 +13,9 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/com/zwzf/util/EntryptUtil.java" line="7" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a996cb2-f6f3-4125-b90d-8b7a3dd39504" name="Default" comment="" />
+    <list default="true" id="7a996cb2-f6f3-4125-b90d-8b7a3dd39504" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,6 +47,7 @@
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="AUTO_COMMIT_ON_CHERRY_PICK" value="true" />
   </component>
   <component name="IdeDocumentHistory">
@@ -133,11 +136,13 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="392" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="306" />
+    <option name="y" value="66" />
     <option name="width" value="931" />
     <option name="height" value="720" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <flattenPackages ProjectPane="false" />
@@ -165,11 +170,6 @@
               <item name="OAS" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OAS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OAS" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -384,12 +384,12 @@
       <workItem from="1531812671338" duration="9120000" />
       <workItem from="1531873568852" duration="13339000" />
       <workItem from="1531895352222" duration="428000" />
-      <workItem from="1531896642212" duration="475000" />
+      <workItem from="1531896642212" duration="1273000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63842000" />
+    <option name="totallyTimeSpent" value="64640000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1384" height="738" extended-state="6" />
@@ -414,11 +414,11 @@
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.04232804" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.76719576" />
       <window_info anchor="bottom" id="Spring" order="13" weight="0.329806" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.45679012" visible="true" weight="0.27938932" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.45679012" visible="true" weight="0.27938932" />
       <window_info anchor="right" id="Bean Validation" order="10" weight="0.32977098" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="7" />
