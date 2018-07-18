@@ -1,7 +1,7 @@
 $(function(){
     $.ajax({
         type:"POST",
-        url: "/getCookie",
+        url: "/OAS/getCookie",
         dataType:"json",
         success:function(data){
             $("#username").val(data.username);

@@ -3,6 +3,7 @@
 <head>
     <title>Logining</title>
     <%@ include file="commons/meta.jsp"%>
+    <script !src="statics/js/getCookie.js" />
 </head>
 <body background="statics/images/login-bg.jpg"
         style=" background-repeat:no-repeat ;
@@ -15,11 +16,11 @@
     <div class="easyui-panel"  title="zwzfOASystem" style=" width:100%;max-width:400px;padding:30px 60px;">
         <form id="ff" method="post" action="${pageContext.request.contextPath}/doLogin.action">
             <div style="margin-bottom:20px">
-                <input class="easyui-textbox" name="username" style="width:100%"
+                <input class="easyui-textbox" id="username" name="username" style="width:100%"
                        data-options="label:'用户名:',required:true">
             </div>
             <div style="margin-bottom:20px">
-                <input class="easyui-passwordbox" name="password" style="width:100%"
+                <input class="easyui-passwordbox" id="password" name="password" style="width:100%"
                        data-options="label:'密码:',required:true">
             </div>
             <div style="margin-bottom:20px">
@@ -32,7 +33,7 @@
                      onclick="this.src='${pageContext.request.contextPath}/doVerificationCode.action?d='+Math.random();">
             </div>
             <div style="margin-bottom:20px" align="center">
-                <input type="checkbox" checked="checked">
+                <input type="checkbox" id="rememberMe" name="rememberMe" checked="checked">
                 <span>记住密码</span>
             </div>
             <div style="text-align:center;padding:5px 0 ">
