@@ -136,7 +136,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="306" />
     <option name="y" value="66" />
     <option name="width" value="931" />
@@ -190,18 +190,18 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\OAS\src\main\webapp\statics\images" />
+      <recent name="D:\OAS\src\main\webapp" />
+      <recent name="D:\OAS\src\main\resources" />
+      <recent name="D:\OAS\src\main\resources\config" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\OAS\src\main\webapp\statics" />
       <recent name="D:\OAS\src\main\webapp" />
       <recent name="D:\OAS\src\main\webapp\WEB-INF\jsp" />
       <recent name="D:\OAS\src\main\resources\config" />
       <recent name="D:\OAS\src\main\resources" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\OAS\src\main\webapp\statics\images" />
-      <recent name="D:\OAS\src\main\webapp" />
-      <recent name="D:\OAS\src\main\resources" />
-      <recent name="D:\OAS\src\main\resources\config" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -384,18 +384,26 @@
       <workItem from="1531812671338" duration="9120000" />
       <workItem from="1531873568852" duration="13339000" />
       <workItem from="1531895352222" duration="428000" />
-      <workItem from="1531896642212" duration="1273000" />
+      <workItem from="1531896642212" duration="1760000" />
     </task>
+    <task id="LOCAL-00001" summary="oas">
+      <created>1531898838473</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1531898838474</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64640000" />
+    <option name="totallyTimeSpent" value="65127000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1384" height="738" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="14" sideWeight="0.50076336" side_tool="true" visible="true" weight="0.09700176" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32857144" />
       <window_info anchor="right" id="Maven Projects" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
@@ -414,8 +422,8 @@
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.76719576" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49923664" visible="true" weight="0.09700176" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3169399" />
       <window_info anchor="bottom" id="Spring" order="13" weight="0.329806" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.45679012" visible="true" weight="0.27938932" />
@@ -437,6 +445,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="oas" />
+    <option name="LAST_COMMIT_MESSAGE" value="oas" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
