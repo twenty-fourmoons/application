@@ -1,5 +1,6 @@
 package com.zwzf.controller;
 
+import com.google.gson.Gson;
 import com.zwzf.pojo.UserBean;
 import com.zwzf.service.UserService;
 import com.zwzf.util.EntryptUtil;
@@ -8,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
@@ -124,5 +126,29 @@ public class UserController {
         return "redirect:index.jsp";
     }
 
+    @RequestMapping(value="/getCookie")
+    public String getCookie(UserBean user, HttpServletRequest request)throws IOException{
+        String username = "";
+        String password = "";
+        Cookie[] cookies = request.getCookies();
+        if(cookies!=null&&cookies.length>0){
+            //遍历Cookie
+            for(int i=0;i<cookies.length;i++){
+                Cookie cookie = cookies[i];
+                //此处类似与Map有
+                if("username".equals(cookie.getName())){
+                    username = cookie.getValue();
+                }
+                if("password".equals(cookie.getName())){
+                    password = cookie.getValue();
+                }
+            }
+        }
+        //自己定义的javabean Cookies
+        user.setUsername(username);
+        user.setPassword(password);
+        Gson gson = new Gson();
+        return gson.toJson(user);
+    }
 
 }
