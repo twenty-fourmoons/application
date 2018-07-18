@@ -29,6 +29,8 @@ public class UserController {
     public String Login(UserBean user, String vcode, HttpServletRequest request, HttpServletResponse response) throws Exception {
         String passwd = request.getParameter("password");
         String username = request.getParameter("username");
+        //添加Cookie
+        userService.addCookie(username, passwd, response, request);
 
         //保存用户名到session
         request.getSession().setAttribute("username", username);

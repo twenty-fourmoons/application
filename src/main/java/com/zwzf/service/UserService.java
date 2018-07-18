@@ -30,8 +30,8 @@ public interface UserService {
 
     /**
      * 添加cookie
-     * @param loginAccount
-     * @param loginPassword
+     * @param username
+     * @param password
      * @param response
      * @param request
      * @throws UnsupportedEncodingException
