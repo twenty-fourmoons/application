@@ -32,7 +32,7 @@ public class UserController {
         String passwd = request.getParameter("password");
         String username = request.getParameter("username");
         //添加Cookie
-        userService.addCookie(username, passwd, response, request);
+        /*userService.addCookie(username, passwd, response, request);*/
 
         //保存用户名到session
         request.getSession().setAttribute("username", username);
@@ -126,7 +126,7 @@ public class UserController {
         return "redirect:index.jsp";
     }
 
-    @RequestMapping(value="/getCookie")
+    /*@RequestMapping(value="/getCookie")
     public String getCookie(UserBean user, HttpServletRequest request)throws IOException{
         String username = "";
         String password = "";
@@ -149,6 +149,6 @@ public class UserController {
         user.setPassword(password);
         Gson gson = new Gson();
         return gson.toJson(user);
-    }
+    }*/
 
 }

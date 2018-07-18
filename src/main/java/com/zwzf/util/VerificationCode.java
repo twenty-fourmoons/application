@@ -25,10 +25,10 @@ public class VerificationCode extends JFrame {
     private int lineCount = 333;
 
     char[] codeSequence = { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J',
-            'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W',
-            'X', 'Y', 'Z', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9',
-            'q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', 'a', 's', 'd', 'f',
-            'g', 'h', 'j', 'k', 'l', 'z', 'x', 'c', 'v', 'b', 'n' , 'm' };
+            'K', 'L', 'M', 'N', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W',
+            'X', 'Y', '3', '4', '5', '6', '7', '8', '9',
+            'q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'p', 'a', 's', 'd', 'f',
+            'g', 'h', 'j', 'k', 'x', 'c', 'v', 'b', 'n' , 'm' };
 
 
     public void getCode(HttpServletRequest request, HttpServletResponse response) throws IOException {

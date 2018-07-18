@@ -3,7 +3,7 @@
 <head>
     <title>Logining</title>
     <%@ include file="commons/meta.jsp"%>
-    <script !src="statics/js/getCookie.js" />
+    <%--<script !src="statics/js/getCookie.js" />--%>
 </head>
 <body background="statics/images/login-bg.jpg"
         style=" background-repeat:no-repeat ;
